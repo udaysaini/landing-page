@@ -1,7 +1,7 @@
 export const EditedVideos = () => {
     return (
         <div>
-            Edited Videos
+            
         </div>
     )
 };
