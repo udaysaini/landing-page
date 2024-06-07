@@ -11,7 +11,7 @@ import Hero from "./hero";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-export const landing = () => {
+export const Landing = () => {
     useEffect(() => {
         AOS.init({
             disable: 'phone',
@@ -45,4 +45,4 @@ export const landing = () => {
     )
 };
 
-export default landing;
+export default Landing;
