@@ -29,6 +29,8 @@ export const EditedVideos = () => {
                     <YouTube videoId="nBRXMKlDWUY" opts={videoOptions} />
                     <YouTube videoId="_5axig8z7tw" opts={videoOptions} />
                     <YouTube videoId="UYz91AX3HHk" opts={videoOptions} />
+                    <YouTube videoId="zgba0l3DELk" opts={videoOptions} />
+                    <YouTube videoId="2wO2na57i-U" opts={videoOptions} />
                 </div>
             </div>
         </div>

@@ -30,7 +30,7 @@ export const Landing = () => {
                 <EditedVideos />
 
                 {/* Edited Shorts */}
-                <EditedShorts />
+                {/* <EditedShorts /> */}
 
                 {/* Channels */}
                 <Channels />
