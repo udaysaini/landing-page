@@ -2,6 +2,9 @@
 
 This is a modern, responsive landing page built with the latest technologies including Next.js 14, React, Tailwind CSS, ShadCN, Calendly integration, and AOS for animations. The project showcases a clean and intuitive design aimed at enhancing user experience and engagement. It is deployed on Vercel for fast and reliable hosting.
 
+## Live Demo
+🚀URL: https://landing-page-sigma-wine.vercel.app 
+
 ## Features
 
 - **Next.js 14**: Utilized for its powerful static site generation and server-side rendering capabilities.
@@ -11,9 +14,6 @@ This is a modern, responsive landing page built with the latest technologies inc
 - **AOS (Animate On Scroll)**: For adding smooth, scroll-based animations to elements.
 - **Calendly Integration**: Seamlessly embedded to schedule appointments directly from the landing page.
 - **Vercel**: Hosted on Vercel for optimal performance and ease of deployment.
-
-## Live Demo
-🚀URL: https://landing-page-sigma-wine.vercel.app 
 
 ## Getting Started
 
