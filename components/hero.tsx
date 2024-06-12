@@ -2,6 +2,15 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Particles from "./particles";
 
+const heroSection = {
+    heading: 'Empower Your Storytelling',
+    // heading: 'Edits Made Easy',
+    // tagline: 'Transform your videos with intention based editing.',
+    // tagline: 'Craft Compelling Narratives with Ease',
+    tagline: 'Elevate Your Content with Precision Editing',
+
+}
+
 export const Hero = () => {
     return (
         <div className="pt-20">
@@ -20,11 +29,11 @@ export const Hero = () => {
                         </Link>
                     </div>
                 </div>
-                <h1 className="pb-4 font-extrabold tracking-tight text-transparent text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-cyan-500 via-blue-600 to-cyan-300" data-aos="fade-down">
-                    Edits Made Easy
+                <h1 className="pb-4 font-extrabold tracking-tight text-transparent text-6xl lg:text-8xl bg-clip-text bg-gradient-to-r from-red-600 via-purple-600 to-red-300" data-aos="fade-down">
+                    {heroSection?.heading}
                 </h1>
                 <p className="mb-8 text-lg text-zinc-300/60" data-aos="fade-down" data-aos-delay="400" >
-                    Transform your videos with intention based editing.
+                    {heroSection?.tagline}
                 </p>
                 <div className="flex flex-col items-center max-w-xs mx-auto gap-4 sm:justify-center sm:flex-row sm:inline-flex" data-aos="fade-down" data-aos-delay="400">
                     <Link href='#calendly' className="w-full flex justify-center items-center whitespace-nowrap transition duration-150 ease-in-out font-medium rounded px-4 py-1.5 text-zinc-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover-bg-white group">
